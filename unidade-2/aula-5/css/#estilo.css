@@ -1,0 +1,52 @@
+#total{
+    width: 960px;
+    height: auto;
+    margin: auto; /*Centraliza a divisão na página*/ 
+}
+#topo{
+    width: 960px;
+    height: auto;
+    float: left;
+    background-color: chocolate;
+}
+#logo{
+    width: 200px;
+    height: 60px;
+    /*margin-top: 10px; top right botton left*/
+    margin: 10px auto;
+    background-color: #CCC;
+}
+#banner{
+    width: 960px;
+    height: 300px;
+    float: left;
+    background-image: url("../imagem/banner.jpg");
+}
+#menu{
+    width: 210px;
+    height: 300px;
+    float: left;
+    background-image: url("../imagem/menu.png");
+}
+#menu{
+    color:#fff;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase; /* texto em maiúsculo*/
+    margin-bottom: 15px;
+    /*padding-left:8px;
+    padding-top:2px;
+    padding-botton:2px;
+    */
+    padding: 2px 0px 2px 8px;
+}
+#menu a:hover{
+    background-image: url("../imagem/menu.png");
+}
+.box{
+    width: 120px;
+    height: 90px;
+    float: left;
+    border: solid 10px rgb
+}

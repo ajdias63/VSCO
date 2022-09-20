@@ -1,0 +1,23 @@
+h1{ color: rgb(58, 22, 22);}
+
+#total{
+    width: 960px; 
+    height: auto;
+    margin: auto;  /*centraliza a divisão na página*/
+}
+
+#cabecalho{
+    width: 960px; 
+    height: 100px;
+    background-color: aliceblue; 
+}
+
+#logotipo{
+   float: left;
+}
+
+#menu{
+    float: right;
+    margin-top: 27px;
+   
+}
