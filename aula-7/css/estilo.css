@@ -1,0 +1,43 @@
+div#total{
+    width: 95%;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+}
+header#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+div#logo{
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+}
+nav#menu{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(189, 94, 26);
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+nav#menu a{
+    color: beige;
+font-weight: 200; /*negrito*/
+text-align: center;
+text-decoration: none;
+margin:0 25px;
+line-height: 40px;
+}
+nav#menu a:hover{
+    text-decoration: underline;
+}
+article#conteudo{
+    width: 60%;
+    float: left;
+}
+#aside#coluna{
+    width: 35%;
+    float: right;
+}
