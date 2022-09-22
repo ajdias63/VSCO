@@ -1,0 +1,52 @@
+#total{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+}
+
+#body{
+    margin: 0px;
+}
+
+#topo{
+     width: 1500px;
+     height: auto;
+    float: left;
+    background-color: blue;
+    border: 10px solid yellow;
+}
+
+#um{
+    width: ;
+    height: ;
+    float: ;
+    background-color: ;
+    margin: ;
+}
+
+#dois{
+    width: ;
+    height: ;
+    float: ;
+    background-color: ;
+    margin: ;
+}
+
+#tres{
+    width: 440px;
+    height: 180px;
+    float: left;
+    background-color: dimgray;
+    margin: 10px 0px 10px 10px;
+}
+
+#quatro{
+    width: ;
+    height: ;
+    float: ;
+    background-color: ;
+    margin: ;
+}
+
+
+
