@@ -1,0 +1,31 @@
+#topo{
+    width: 100%;
+    background-color: #73B9FF;
+    height: 30px;
+}
+
+.largura-site{
+    width: 900px;
+    margin: auto; /*centraliza na página*/
+}
+#logotipo{
+    width: 140px;
+    height: 24px;
+    float: left;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 8px;
+}
+#menu a{
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#menu a:hover{
+   text-decoration: underline;
+   
+}
