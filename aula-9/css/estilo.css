@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #topo{
     width: 100%;
     background-color: #73B9FF;
@@ -8,24 +12,50 @@
     width: 900px;
     margin: auto; /*centraliza na página*/
 }
+
 #logotipo{
     width: 140px;
     height: 24px;
     float: left;
+    margin-top: 3px;
 }
+
 #menu{
     width: auto;
     height: auto;
     float: right;
-    margin-top: 8px;
+    margin-top: 6px;
+    text-transform: uppercase;
 }
+
 #menu a{
     color: #FFF;
     font-size: 16px;
     text-decoration: none;
     margin-left: 50px;
 }
+
 #menu a:hover{
    text-decoration: underline;
    
 }
+
+.imghome{
+    float: left;
+    margin-top: 80px;
+}
+
+#conteudohome{
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 50px;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid #73B9FF;
+}
+
