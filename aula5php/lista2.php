@@ -20,17 +20,47 @@
     </form>
 
     <?php
+    //Entrada
+    $sal = $_GET["salario"];
 
-$sal = $_GET["salario"];
-$rj = $_GET["reajuste"];
+    //Processamento
 
-if ($sal ||  "<280") {
-    $sal * 
-} else {
-    # code...
-}
+    if ($sal <= "280") {
+        $salarion = $sal * 1.20;
+        $aumento = $salarion - $sal;
+        $percentual = 20;
+        echo"<br /> Seu salário é: ".$sal;  
+        echo"<br /> Percentual de aumento: ".$percentual;
+        echo"<br /> Valor do aumento: ".$aumento;
+        echo"<br /> Seu  novo salário é: ".$salarion;
+   
+    } else if ($sal > "280" && $sal <=700) {
+        $salarion = $sal * 1.15;
+        $aumento = $salarion - $sal;
+        $percentual = 15;
+        echo"<br /> Seu salário é: ".$sal;  
+        echo"<br /> Percentual de aumento: ".$percentual;
+        echo"<br /> Valor do aumento: ".$aumento;
+        echo"<br /> Seu  novo salário é: ".$salarion;
+    
+    } else if ($sal > "700" && $sal <=1500) {
+        $salarion = $sal * 1.10;
+        $aumento = $salarion - $sal;
+        $percentual = 10;
+        echo"<br /> Seu salário é: ".$sal;  
+        echo"<br /> Percentual de aumento: ".$percentual;
+        echo"<br /> Valor do aumento: ".$aumento;
+        echo"<br /> Seu  novo salário é: ".$salarion;
 
-
+    } else {
+        $salarion = $sal * 1.05;
+        $aumento = $salarion - $sal;
+        $percentual = 5;
+        echo"<br /> Seu salário é: ".$sal;  
+        echo"<br /> Percentual de aumento: ".$percentual;
+        echo"<br /> Valor do aumento: ".$aumento;
+        echo"<br /> Seu  novo salário é: ".$salarion;
+    }
 
 ?>
 </body>

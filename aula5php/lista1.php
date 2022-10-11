@@ -33,10 +33,6 @@
      } else {
         echo"Operação Inválida!";
      }
-    
-     
-
-     
     ?>
 </body>
 </html>
