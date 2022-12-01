@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+      Digite uma letra:
+      <input type="text" id="letra"/>
+      <br/>
+      <input type="submit" onclick="check()" value="verificar">
+    </form>    
+</body>
+</html>
+<script>
+    function check(){
+        var l = document.getElementById("letra").value;
+        l = l.toLowerCase();
+        //alert(l)
+        if (l== 'a'||l=='e'||l=='i'||'o'||l=='u') {
+            alert("vogal");
+        } else {
+            alert("consoante");
+        }
+       
+        
+    }
+
+        
+    
+
+
+</script>

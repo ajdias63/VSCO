@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function x() {
+
+        var num1 = window.document.formulario1.value;
+        //alert(num1)
+        var num2 = window.document.formulario2.value;
+        //alert(num2)
+        var soma = parseInt(num1) + parseInt(num2);
+        var mult =parseInt(num1)*parseInt(num2);
+        var div = parseFloat(num1)/(num2);
+        var sub = parseInt(num1)-(num2);
+        soma = parseInt(soma);
+        mult = parseInt(mult);
+        div = parseFloat(div);
+        //alert (soma);
+        document.write("primeiro numero"+num1+"<br>");
+        document.write("segundo numero"+num2+"<br>");
+        document.write("<br>soma"+ soma);
+        document.write("<br>multiplicação"+mult);
+        document.write("<br>divisão"+div);
+        document.write("<br subtrção" +sub);
+        
+    }
+
+</script>
+    
+<body>
+    <form action="">
+        Número1:
+        <input type="text"  name=""  id="num1">
+        <br/><br>
+        <input type="text"  name=""  id="num2">
+        <br/><br>
+        <input type="submit" onclick="x();return" value="calcular">
+    </form>
+</body>
+</html>

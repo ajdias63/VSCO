@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function maior (){
+        var n1 = window.document.form1.n1.value;
+        n1 = parseFloat(n1);
+        var n2 = window.document.form1.n2.value;
+        n2 = parseFloat(n2);
+        var n3 = window.document.form1.n3.value;
+        n3 = parseFloat(n3);
+        if ((n1 > n2) && (n1 > n3)) {
+            alert("Primeiro é maior" + n1);
+        } else if ((n2 > n1) && (n2 > n3)) {
+            alert("Segundo é maior" + n2);            
+        } else if ((n3 > n1) && (n3 > n2)){
+            alert("Terceiro é maior" + n3);
+        }
+
+        if ((n1 < n2) && (n1 < n3)) {
+            alert("Primeiro é menor" + n1);
+        } else if ((n2 < n1) && (n2 < n3)) {
+            alert("Segundo é menor" + n2);            
+        } else if ((n3 < n1) && (n3 < n2)){
+            alert("Terceiro é menor" + n3);
+        }
+    }
+</script>
+<body>
+    <form name="form1" action="">
+        Digite o primeiro número:
+        <input type="text" name="" id="n1">
+        <br/><br/><br/><br/>
+        Digite o segundo número:
+        <input type="text" name="" id="n2">
+        <br/><br/><br/><br/>
+        Digite o terceiro número:
+        <input type="text" name="" id="n3">
+        <br/><br/><br/><br/>
+        <input type="submit" onclick="maior();return false;" value="Verificar o maior e o menor">
+        
+    </form>
+</body>
+</html>
