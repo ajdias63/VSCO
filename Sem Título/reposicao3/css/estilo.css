@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-image: url(../img/background2.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#total{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+#topo{
+    width: 980px;
+    height: 37px;
+    float: left;
+    background-color: darkolivegreen;
+    border-bottom: 3px solid #bba;
+    position: absolute;
+}
+#logo{
+    width: 143px;
+    height: 182px;
+    float: left;
+}
+
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+#menu a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 27px;
+    padding: 10px 20px 0 20px;
+}
+#menu a:hover{
+    background-color: #bba;
+}
+#menu a:active{
+    background-color: darkgreen;
+    ;
+}
+#destaque{
+    width: 980px;
+   min-height: 100px;
+   float: left;
+   background-color: darkolivegreen;
+}
+#destaque h1{
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#destaque h4{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.imgesquerda{
+    float: left;
+    margin-right: 10px;
+}
+#conteudo{
+    width: 750px;
+    height: auto;
+    float: left;
+}
+#coluna{
+    width: 180px;
+    height: 150px;
+    float: right;
+    color: darkolivegreen;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+#coluna h3{
+    font-size: 22px;
+    margin-top: 0px;
+    text-align: center;
+}
+.saibamais{
+    color: #fff;
+    display: inline-block;
+    width: 117px;
+    height: 25px;
+    background-color: darkolivegreen;
+    text-decoration: none;
+    font-size:  14px;
+    text-align: center;
+    padding-top:  7px;
+}
+#rodape{
+    clear: both;
+    float: left;
+    margin-right:10px;
+    width: 980px;
+    height: 25px;
+    background-color: #bba;
+    margin-top: 70px;
+    color: darkolivegreen;
+    text-align: center;
+    padding-top: 12px;
+}
