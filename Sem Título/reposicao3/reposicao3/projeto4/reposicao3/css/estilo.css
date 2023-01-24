@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    background-image: url(../img/plano\ de\ fundo\ unha.jpeg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#total {
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+
+#topo {
+    width: 980px;
+    height: 37px;
+    float: left;
+    background-image: url(../img/topo2.png);
+    border-bottom: 3px solid lightcoral;
+    position: absolute;
+}
+
+#logo {
+    width: 144px;
+    height: 182px;
+    float: left;
+}
+
+#menu {
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+#menu a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    height: 27px;
+    padding: 10px 20px 0 20px;
+}
+#menu a:hover {
+    background-color: lightsalmon ;
+}
+#menu a:active {
+    background-color: lightsalmon;
+}
+#destaque{
+    width: 980px;
+    min-height: 100px;
+    float: left;
+    background-color: lightsalmon;
+}
+#destaque h1{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+}
+#destaque h4{
+    color: black;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+.imgesquerda{
+    float:left ;
+}
+#conteudo{
+    width: 750px;
+    height: auto;
+    float: left;
+}
+#coluna{
+    background-color: rgb(248, 196, 175);
+    width: 180px;
+    float: right;
+    color: black;
+    font-size: 18px;
+    padding: 15px,10px;
+}
+#coluna h3{
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+}
+.saibamais{
+    display: inline-block;
+    width: 117px;
+    height: 25px;
+    background-color:lightsalmon;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#rodape{
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    width: 980px;
+    height: 25px;
+    background-color:lightsalmon ;
+    margin-top:50px;
+    color: black;
+    text-align:center ;
+    padding-top: 12px;
+}
